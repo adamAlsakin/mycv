@@ -40,11 +40,14 @@ h2{
 }
 
 .text-darkblue{
-    color: 002060;
+    color: #002060;
 }
 
 .text-uppercase{
     text-transform: uppercase;
+}
+.icon{
+    margin-right: .5rem;
 }
 
 .cv-container{
@@ -82,13 +85,13 @@ h2{
     letter-spacing: 1px;
     margin: 0 0 1rem;
 }
-.rright-column{
+.right-column{
 grid-area: right-column;
 display: grid;
 grid-template-rows: 250px 1fr;
-grid-template-areas: 
-"header"
-"content";
+grid-template-areas: "header" "content";
+
+
 }
 .header{
     grid-area: header;
